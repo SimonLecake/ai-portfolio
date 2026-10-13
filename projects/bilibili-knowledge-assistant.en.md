@@ -20,6 +20,18 @@ Saving a video is easy; finding a specific idea later is harder. Individual summ
 
 **Illustrative task:** ingest notes on course review and hands-on projects, then ask how to combine the two learning methods. This is a usage example, not a measured answer-quality result.
 
+## From input to output: three tabs
+
+| Tab | Input | Output |
+| --- | --- | --- |
+| Video analysis | A Bilibili video URL | Transcript, summary, TXT / Word reports and content stored in the knowledge base |
+| Document ingestion | Word / TXT files, titles and source identifiers | Document content searchable alongside video material |
+| Knowledge-base QA | A question and the desired number of reference chunks | A synthesized answer and relevant source titles |
+
+A typical session starts with analyzing a course video, adds personal project notes, then uses the QA tab to find related content across both. Users do not need to manually transfer transcripts, build vector indexes or combine search results between tools.
+
+Content persists locally across sessions. Reingesting the same source updates its records. Answers currently display source titles; precise evidence excerpts and video timestamp navigation remain future work.
+
 ## Architecture
 
 ```mermaid
@@ -37,6 +49,13 @@ flowchart TD
 ```
 
 Content processing uses yt-dlp, FFmpeg and python-docx. Transcription, generation and embeddings connect to iFlytek, a configurable chat model and DashScope. Python orchestrates the workflow. Indexes and text are stored locally, while model processing uses external services.
+
+| Layer | Technology and responsibility |
+| --- | --- |
+| Interaction and orchestration | Gradio and Python: three tabs, progress updates and service calls |
+| Content processing | yt-dlp, FFmpeg and python-docx: audio acquisition, document reading and report generation |
+| Model services | iFlytek transcription, chat-model summaries and answers, and DashScope embeddings |
+| Retrieval and storage | FAISS, JSON and RRF: vector search, persistent source records and multi-query fusion |
 
 ## Implementation focus and choices
 

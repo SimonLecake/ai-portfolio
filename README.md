@@ -21,7 +21,9 @@ LLM 评估 · 检索增强生成 · 数据分析 Agent · 计算机视觉
 | **ChatBI Stock Assistant** | 一个数据问题需要手动写 SQL、算指标、画图 | 自然语言查询、三个分析工具、只读数据访问 | [查看案例 →](projects/chatbi-stock-assistant.md) |
 | **Steel Defect Inspection** | 检测结果与人工复核、问题样本整理脱节 | YOLO / VLM 双路线、检测记录、审核与导出 | [查看案例 →](projects/steel-defect-inspection.md) |
 
-## 先看一个实际输出
+## 先看两个项目
+
+### ChatBI · 数据分析工具输出
 
 **ChatBI：把历史序列变成可检查的指标图表。** 下图由项目分析工具实际生成，展示收盘价、布林带与突破点。
 
@@ -30,6 +32,14 @@ LLM 评估 · 检索增强生成 · 数据分析 Agent · 计算机视觉
 ![ChatBI 合成数据演示：收盘价、布林带与突破点](assets/chatbi/bollinger-demo.png)
 
 [查看 ChatBI 的工具编排与更多输出 →](projects/chatbi-stock-assistant.md)
+
+### 钢铁质检 · 检测之后，如何复核与改进
+
+![钢铁质检工作流：选择检测引擎、统一结果、人工复核与问题样本回流](assets/steel/overview.svg)
+
+这张图展示工作台的产品流程：上传图片，选择检测引擎，查看结果，记录人工判断，再导出问题样本。它是架构示意图，不是检测效果截图。
+
+[查看工作台的五个功能页与使用流程 →](projects/steel-defect-inspection.md)
 
 ## 这些项目体现了什么
 

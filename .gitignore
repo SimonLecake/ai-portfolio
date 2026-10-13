@@ -11,3 +11,6 @@
 !/assets/chatbi/
 /assets/chatbi/*
 !/assets/chatbi/*.png
+!/assets/steel/
+/assets/steel/*
+!/assets/steel/overview.svg

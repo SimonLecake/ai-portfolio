@@ -8,6 +8,10 @@ An AI inspection workbench for steel surfaces, connecting visual detection, hist
 
 **Stack:** Python · YOLO · Qwen-VL · Gradio · SQLite
 
+![Steel inspection workbench: two engines, unified results and human feedback](../assets/steel/overview.svg)
+
+*Architecture illustration retained from the original project README; this is not an actual detection result.*
+
 ## Project value
 
 A bounding box is only the beginning of inspection. Users also need to confirm the result, find the original image and identify cases worth relabeling. This project organizes the application around those follow-up actions.
@@ -20,6 +24,22 @@ A bounding box is only the beginning of inspection. Users also need to confirm t
 | Export | Package problem images, CSV records and follow-up guidance | Prepare material for manual relabeling and training |
 
 The six defect categories are crazing, inclusion, pitted surface, scratches, patches and rolled-in scale. The application is a learning and engineering prototype.
+
+## Using the workbench
+
+**Upload an image → select an engine → inspect the boxes → record a review → find and export error cases.**
+
+For example, if a reviewer sees a scratch that the model missed, they can mark the record as a missed defect and add a note. Those records can later be filtered and exported with the images for manual relabeling. This illustrates the workflow; it is not a new detection experiment.
+
+| Tab | User action |
+| --- | --- |
+| Defect detection | Upload or select a test image, choose YOLO / VLM, inspect boxes and submit a review |
+| Inspection records | Query past detections and review states, and revisit images |
+| Statistics | View summaries of detection and review records |
+| Data export | Select error cases and export images, CSV records and follow-up guidance |
+| Competition submission | Generate a batch-prediction submission file once data and a model are prepared |
+
+The workbench reviews inspection records. Editing individual bounding-box labels still requires an external annotation tool. This connects error discovery to training-data correction while preserving human confirmation.
 
 ## Architecture
 

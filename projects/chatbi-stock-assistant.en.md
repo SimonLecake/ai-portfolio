@@ -35,11 +35,13 @@ A question about a trend usually requires writing SQL, organizing results, calcu
 
 | Example request | Tool responsibility | Inspectable output |
 | --- | --- | --- |
-| Query a stock's quarterly closing prices | Read-only SQL query | Data table, descriptive statistics and chart |
-| Extrapolate seven weekdays beyond the available history | ARIMA modeling | Historical and extrapolated curves, plus values |
-| Find a year's Bollinger Band crossings | Rolling calculations and filtering | Dates, prices, band values and deviations |
+| “Show Kweichow Moutai's closing-price trend for January 2025” | Read-only SQL query | Data table, descriptive statistics and chart |
+| “Using the latest database records, forecast Wuliangye's next seven weekdays” | ARIMA modeling | Historical and extrapolated curves, plus values |
+| “Find Hikvision's Bollinger Band crossings in 2025” | Rolling calculations and filtering | Dates, prices, band values and deviations |
 
 These are example entry points. The images above come from direct offline tool calls, not an evaluated end-to-end natural-language conversation.
+
+A conversation follows this sequence: **ask a question → the agent identifies the stock, period and analysis task → a tool runs → inspect text, tables and charts**. SQL retrieves data and analysis tools perform calculations, with returned tables available for checking. The interface uses Qwen-Agent WebUI / Gradio for conversational analysis.
 
 ## Architecture
 

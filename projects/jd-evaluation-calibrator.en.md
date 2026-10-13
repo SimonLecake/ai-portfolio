@@ -35,6 +35,19 @@ flowchart LR
 | Sample-based calibration | JD, historical samples and human judgments | Rubric, evidence matrix, evaluation records and model input text |
 | JD-only rewriting | JD | Ambiguity diagnosis, provisional rules and input text awaiting evaluation |
 
+## What the user receives
+
+The user supplies a JD and, when available, historical samples with confirmed human judgments. The deliverables help check both whether the criteria are clear and whether the model follows them:
+
+| Deliverable | What it helps inspect |
+| --- | --- |
+| Revised JD | Ambiguous wording and clarified boundaries |
+| Human evaluation rubric | Experience levels, mandatory requirements and bonus criteria |
+| Responsibilities and requirements text | Criteria ready for the existing tool's two input fields |
+| Evidence matrix and evaluation table, in sample-based mode | Human–model disagreements and whether revisions improve alignment |
+
+Users put the two text outputs into the existing evaluation tool, rerun confirmed and sanitized samples, and inspect disagreements. JD-only outputs are explicitly marked as awaiting evaluation; generating a rule set does not establish its effectiveness.
+
 A key design choice is to retain numerical weights in the human rubric while using qualitative levels by default in the model input. This adapts the same business requirements to two different consumers. The workflow depends on its host for model access and file handling; it is not a standalone web service.
 
 ## Contribution and practice records

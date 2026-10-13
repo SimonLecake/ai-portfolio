@@ -21,7 +21,9 @@ My work focuses on the full application workflow: understanding requirements, se
 | **ChatBI Stock Assistant** | Answering a data question requires SQL, calculations and charts | Natural-language queries, three analysis tools and read-only data access | [Explore →](projects/chatbi-stock-assistant.en.md) |
 | **Steel Defect Inspection** | Detection is disconnected from review and error-case collection | YOLO / VLM alternatives, inspection records, review and export | [Explore →](projects/steel-defect-inspection.en.md) |
 
-## An actual tool output
+## A closer look at two projects
+
+### ChatBI · Analysis tool output
 
 **ChatBI: from a historical series to an inspectable indicator chart.** The application's analysis tool generated the chart below, showing closing prices, Bollinger Bands and band crossings.
 
@@ -30,6 +32,14 @@ My work focuses on the full application workflow: understanding requirements, se
 ![ChatBI synthetic-data demonstration: closing prices, Bollinger Bands and crossings](assets/chatbi/bollinger-demo.png)
 
 [Explore the tool workflow and more outputs →](projects/chatbi-stock-assistant.en.md)
+
+### Steel inspection · What happens after detection
+
+![Steel inspection: engine selection, unified results, human review and error-case feedback](assets/steel/overview.svg)
+
+The diagram shows the workbench workflow: upload an image, select an engine, inspect the result, record a human judgment and export error cases. It is an architectural illustration, not a detection screenshot.
+
+[Explore the five workbench tabs and walkthrough →](projects/steel-defect-inspection.en.md)
 
 ## What the projects demonstrate
 
