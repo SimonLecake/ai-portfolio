@@ -1,0 +1,13 @@
+# Publish only the reviewed documentation and presentation assets.
+/*
+!/.gitignore
+!/.gitattributes
+!/*.md
+!/projects/
+/projects/*
+!/projects/*.md
+!/assets/
+/assets/*
+!/assets/chatbi/
+/assets/chatbi/*
+!/assets/chatbi/*.png
