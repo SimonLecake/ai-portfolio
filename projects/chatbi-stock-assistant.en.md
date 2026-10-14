@@ -10,7 +10,7 @@ A historical stock-data prototype where an agent interprets natural-language que
 
 ## Recorded demo
 
-**01:41** · [Open video separately](https://github.com/user-attachments/assets/2df7c68e-9bf1-4629-87d3-c4bde9e53164)
+**01:41** · Play inline or use the player's fullscreen control.
 
 Ask for closing-price trends, Bollinger Band detection and ARIMA analysis; inspect tool calls, tables and charts in the conversation.
 

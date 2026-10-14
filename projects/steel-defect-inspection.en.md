@@ -10,7 +10,7 @@ An AI inspection workbench for steel surfaces, connecting visual detection, hist
 
 ## Recorded demo
 
-**03:10** · [Open video separately](https://github.com/user-attachments/assets/d346e19f-a398-43ef-a979-c9453fc4cfad)
+**03:10** · Play inline or use the player's fullscreen control.
 
 Upload an image, try YOLO and VLM detection, review results, inspect records, export error cases and run batch predictions.
 

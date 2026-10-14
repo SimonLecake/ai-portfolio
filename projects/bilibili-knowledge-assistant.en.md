@@ -10,7 +10,7 @@ Turning video audio and local documents into a personal knowledge base that can 
 
 ## Recorded demo
 
-**04:05** · [Open video separately](https://github.com/user-attachments/assets/9920a8df-6ac5-4cde-8612-86511bfe3530)
+**04:05** · Play inline or use the player's fullscreen control.
 
 Start with a video URL, follow download and transcription, inspect the summary and ingestion result, then ask a knowledge-base question and review the answer and sources.
 
