@@ -8,6 +8,27 @@ Turning video audio and local documents into a personal knowledge base that can 
 
 **Stack:** Python · Gradio · Speech transcription · FAISS · Multi-query RAG · RRF
 
+## Recorded demo
+
+**04:05** · [Open video separately](https://github.com/user-attachments/assets/9920a8df-6ac5-4cde-8612-86511bfe3530)
+
+Start with a video URL, follow download and transcription, inspect the summary and ingestion result, then ask a knowledge-base question and review the answer and sources.
+
+https://github.com/user-attachments/assets/9920a8df-6ac5-4cde-8612-86511bfe3530
+
+**Approximate chapters:** `00:00` URL and content processing · `01:45` Transcript and summary · `02:00` Knowledge-base question · `03:40` Answer and sources
+
+<details>
+<summary>Expand a screenshot from the recording</summary>
+
+![Bilibili Knowledge Assistant — Recorded demo](../assets/demos/bilibili.jpg)
+
+Captured from the author-provided recording. The application interface is in Chinese.
+
+</details>
+
+Processing waits and the answer's evidence limitations are retained. Third-party video content and model-generated text demonstrate the processing workflow; they are not endorsed factual claims or a QA-quality benchmark.
+
 ## Why it exists
 
 Saving a video is easy; finding a specific idea later is harder. Individual summaries help with browsing, but questions spanning videos and personal notes still require manual searching. This application connects content acquisition, knowledge storage and question answering.

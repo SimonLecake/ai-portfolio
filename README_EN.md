@@ -21,25 +21,17 @@ My work focuses on the full application workflow: understanding requirements, se
 | **ChatBI Stock Assistant** | Answering a data question requires SQL, calculations and charts | Natural-language queries, three analysis tools and read-only data access | [Explore →](projects/chatbi-stock-assistant.en.md) |
 | **Steel Defect Inspection** | Detection is disconnected from review and error-case collection | YOLO / VLM alternatives, inspection records, review and export | [Explore →](projects/steel-defect-inspection.en.md) |
 
-## A closer look at two projects
+## Watch the applications in use
 
-### ChatBI · Analysis tool output
+Three author-recorded demonstrations. Select a cover or “Watch demo” to open the player in the corresponding case study. Each case also documents the architecture and implementation choices.
 
-**ChatBI: from a historical series to an inspectable indicator chart.** The application's analysis tool generated the chart below, showing closing prices, Bollinger Bands and band crossings.
+| Steel Defect Inspection | Bilibili Knowledge Assistant | ChatBI Stock Assistant |
+| :---: | :---: | :---: |
+| [![Steel Defect Inspection](assets/demos/steel.jpg)](projects/steel-defect-inspection.en.md#recorded-demo) | [![Bilibili Knowledge Assistant](assets/demos/bilibili.jpg)](projects/bilibili-knowledge-assistant.en.md#recorded-demo) | [![ChatBI Stock Assistant](assets/demos/chatbi.jpg)](projects/chatbi-stock-assistant.en.md#recorded-demo) |
+| **03:10** · [▶ Watch demo](projects/steel-defect-inspection.en.md#recorded-demo) | **04:05** · [▶ Watch demo](projects/bilibili-knowledge-assistant.en.md#recorded-demo) | **01:41** · [▶ Watch demo](projects/chatbi-stock-assistant.en.md#recorded-demo) |
+| Detection → review → export | Video → summary and storage → QA | Question → analysis tools → tables and charts |
 
-> The chart uses **synthetic data generated with a fixed random seed**, not real market prices. It demonstrates an analysis tool's output, not natural-language accuracy or investment performance. Chart labels are in Chinese.
-
-![ChatBI synthetic-data demonstration: closing prices, Bollinger Bands and crossings](assets/chatbi/bollinger-demo.png)
-
-[Explore the tool workflow and more outputs →](projects/chatbi-stock-assistant.en.md)
-
-### Steel inspection · What happens after detection
-
-![Steel inspection: engine selection, unified results, human review and error-case feedback](assets/steel/overview.svg)
-
-The diagram shows the workbench workflow: upload an image, select an engine, inspect the result, record a human judgment and export error cases. It is an architectural illustration, not a detection screenshot.
-
-[Explore the five workbench tabs and walkthrough →](projects/steel-defect-inspection.en.md)
+Recordings, architectural illustrations and synthetic-data charts are labeled separately. A demonstration is not an independent model-quality evaluation.
 
 ## What the projects demonstrate
 

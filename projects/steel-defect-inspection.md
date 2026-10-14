@@ -8,6 +8,27 @@
 
 **技术：** Python · YOLO · Qwen-VL · Gradio · SQLite
 
+## 实机演示
+
+**03:10** · [单独打开视频](https://github.com/user-attachments/assets/d346e19f-a398-43ef-a979-c9453fc4cfad)
+
+上传图片，分别体验 YOLO 与 VLM 检测，再完成人工审核、历史记录查询、问题样本导出和批量预测。
+
+https://github.com/user-attachments/assets/d346e19f-a398-43ef-a979-c9453fc4cfad
+
+**关键片段（约）:** `00:00` 图片与 YOLO 检测 · `00:58` VLM 检测 · `01:20` 人工审核 · `01:35` 历史记录 · `02:00` 问题样本导出 · `02:20` 批量预测
+
+<details>
+<summary>展开查看录屏截图</summary>
+
+![钢铁缺陷检测 — 实机演示](../assets/demos/steel.jpg)
+
+从作者提供的实际录屏中截取，保留应用画面。
+
+</details>
+
+录屏展示操作流程和个别样本结果，不代表整体检测准确率；人工审核仍可能标记误检或漏检。
+
 ![钢铁表面缺陷检测工作台：双引擎、统一结果与人工反馈流程](../assets/steel/overview.svg)
 
 *沿用原项目 README 的架构展示图；示意图不代表实际检测结果。*

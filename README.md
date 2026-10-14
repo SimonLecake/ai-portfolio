@@ -21,25 +21,17 @@ LLM 评估 · 检索增强生成 · 数据分析 Agent · 计算机视觉
 | **ChatBI Stock Assistant** | 一个数据问题需要手动写 SQL、算指标、画图 | 自然语言查询、三个分析工具、只读数据访问 | [查看案例 →](projects/chatbi-stock-assistant.md) |
 | **Steel Defect Inspection** | 检测结果与人工复核、问题样本整理脱节 | YOLO / VLM 双路线、检测记录、审核与导出 | [查看案例 →](projects/steel-defect-inspection.md) |
 
-## 先看两个项目
+## 看实际操作
 
-### ChatBI · 数据分析工具输出
+三段作者实录，点击封面或“观看演示”进入对应案例的播放器。画面展示实际操作与结果，详细技术说明保留在各案例中。
 
-**ChatBI：把历史序列变成可检查的指标图表。** 下图由项目分析工具实际生成，展示收盘价、布林带与突破点。
+| 钢铁缺陷检测 | B 站知识库助手 | 股票数据分析助手 |
+| :---: | :---: | :---: |
+| [![钢铁缺陷检测](assets/demos/steel.jpg)](projects/steel-defect-inspection.md#实机演示) | [![B 站知识库助手](assets/demos/bilibili.jpg)](projects/bilibili-knowledge-assistant.md#实机演示) | [![股票数据分析助手](assets/demos/chatbi.jpg)](projects/chatbi-stock-assistant.md#实机演示) |
+| **03:10** · [▶ 观看演示](projects/steel-defect-inspection.md#实机演示) | **04:05** · [▶ 观看演示](projects/bilibili-knowledge-assistant.md#实机演示) | **01:41** · [▶ 观看演示](projects/chatbi-stock-assistant.md#实机演示) |
+| 双引擎检测 → 审核 → 导出 | 视频处理 → 总结入库 → 问答 | 自然语言 → 分析工具 → 表格与图表 |
 
-> 图中为固定随机种子生成的**合成数据**，不是真实行情。图片验证的是分析工具输出，不代表自然语言对话准确率或投资效果。
-
-![ChatBI 合成数据演示：收盘价、布林带与突破点](assets/chatbi/bollinger-demo.png)
-
-[查看 ChatBI 的工具编排与更多输出 →](projects/chatbi-stock-assistant.md)
-
-### 钢铁质检 · 检测之后，如何复核与改进
-
-![钢铁质检工作流：选择检测引擎、统一结果、人工复核与问题样本回流](assets/steel/overview.svg)
-
-这张图展示工作台的产品流程：上传图片，选择检测引擎，查看结果，记录人工判断，再导出问题样本。它是架构示意图，不是检测效果截图。
-
-[查看工作台的五个功能页与使用流程 →](projects/steel-defect-inspection.md)
+录屏与架构图、合成数据图分别标注；演示不等于独立的模型效果评测。
 
 ## 这些项目体现了什么
 

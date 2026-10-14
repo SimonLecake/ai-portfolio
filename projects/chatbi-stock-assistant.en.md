@@ -8,11 +8,32 @@ A historical stock-data prototype where an agent interprets natural-language que
 
 **Stack:** Python · Qwen-Agent · SQLite · Pandas · Statsmodels · Matplotlib · Gradio
 
+## Recorded demo
+
+**01:41** · [Open video separately](https://github.com/user-attachments/assets/2df7c68e-9bf1-4629-87d3-c4bde9e53164)
+
+Ask for closing-price trends, Bollinger Band detection and ARIMA analysis; inspect tool calls, tables and charts in the conversation.
+
+https://github.com/user-attachments/assets/2df7c68e-9bf1-4629-87d3-c4bde9e53164
+
+**Approximate chapters:** `00:00` Natural-language query · `00:35` Bollinger Bands · `01:12` ARIMA analysis
+
+<details>
+<summary>Expand a screenshot from the recording</summary>
+
+![ChatBI Stock Assistant — Recorded demo](../assets/demos/chatbi.jpg)
+
+Captured from the author-provided recording. The application interface is in Chinese.
+
+</details>
+
+The recording uses the local data and interface available when recorded, separately from the fixed-seed synthetic charts below. Its data provenance and forecast performance are not independently verified here. It is not investment advice or an accuracy evaluation.
+
 ## See an output first
 
 The application's Bollinger Band tool generated this chart of closing prices, rolling averages, bands and crossings.
 
-> **All charts use synthetic data generated with a fixed random seed.** Stock names illustrate entity mapping, not the actual prices of those stocks. “Overbought / oversold” labels describe the indicator, not trading recommendations. Chart labels are in Chinese.
+> **The three static tool charts in this section use synthetic data generated with a fixed random seed. The recorded demo and its screenshot above are described separately.** Stock names illustrate entity mapping, not the actual prices of those stocks. “Overbought / oversold” labels describe the indicator, not trading recommendations. Chart labels are in Chinese.
 
 ![Bollinger Band analysis of synthetic data](../assets/chatbi/bollinger-demo.png)
 
