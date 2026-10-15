@@ -1,4 +1,4 @@
-[← 作品集首页](../README.md) · **简体中文** · [English](jd-evaluation-calibrator.en.md)
+[← 作品集首页](../README.md) · **简体中文** · [English](jd-evaluation-calibrator.en.md) · [Public 源码仓库 ↗](https://github.com/SimonLecake/jd-rewrite-skill)
 
 # JD Evaluation Calibrator
 
@@ -72,4 +72,4 @@ flowchart LR
 
 ---
 
-完整 Skill、提示词模板、误判规则库与业务样本保留在私有环境。本页仅展示方法概述与脱敏示例。[展示范围](../PUBLICATION.md)
+完整 Skill、提示词模板与误判规则库已在[项目仓库](https://github.com/SimonLecake/jd-rewrite-skill)公开；真实业务样本与原始评估数据未随仓库分发。本页保留方法概述与说明性示例。[展示范围](../PUBLICATION.md)

@@ -1,4 +1,4 @@
-[← Portfolio](../README_EN.md) · [简体中文](steel-defect-inspection.md) · **English**
+[← Portfolio](../README_EN.md) · [简体中文](steel-defect-inspection.md) · **English** · [Public source repository ↗](https://github.com/SimonLecake/steel-defect-inspection)
 
 # Steel Defect Inspection
 
@@ -96,7 +96,7 @@ I do not claim original authorship of the underlying model research, third-party
 | UI construction and HTTP smoke checks | Interface construction succeeded; page and configuration endpoints were reachable | Not a browser end-to-end test |
 | Local YOLO inference on one image | Returned bounding boxes and an annotated image | Inference-path validation, not overall detection quality |
 
-These observations come from existing validation records in the private project. This showcase does not include the inference image, model weights or original experiment logs. Models were not retrained for this publication.
+These observations come from existing validation records in the implementation project. This showcase does not include the inference image, model weights or original experiment logs. Models were not retrained for this publication.
 
 ## Limitations and priorities
 
@@ -107,4 +107,4 @@ These observations come from existing validation records in the private project.
 
 ---
 
-This page provides an architectural and practice overview. It does not distribute original course materials, implementation code, datasets or model weights. [Publication scope and third-party notes](../PUBLICATION.md)
+Implementation code and setup instructions are available in the [public project repository](https://github.com/SimonLecake/steel-defect-inspection), with learning-material and third-party provenance notes retained. Original course materials, datasets and model weights are excluded. [Publication scope and third-party notes](../PUBLICATION.md)

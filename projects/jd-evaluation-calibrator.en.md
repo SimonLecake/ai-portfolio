@@ -1,4 +1,4 @@
-[← Portfolio](../README_EN.md) · [简体中文](jd-evaluation-calibrator.md) · **English**
+[← Portfolio](../README_EN.md) · [简体中文](jd-evaluation-calibrator.md) · **English** · [Public source repository ↗](https://github.com/SimonLecake/jd-rewrite-skill)
 
 # JD Evaluation Calibrator
 
@@ -72,4 +72,4 @@ The central capability demonstrated here is translating tacit business judgment 
 
 ---
 
-The complete Skill, prompt templates, error-pattern library and business samples remain private. This page publishes a method overview and sanitized illustrations. [Publication scope](../PUBLICATION.md)
+The complete Skill, prompt templates and error-pattern library are available in the [public project repository](https://github.com/SimonLecake/jd-rewrite-skill). Real business samples and raw evaluation data are not distributed. This page retains the method overview and illustrative examples. [Publication scope](../PUBLICATION.md)

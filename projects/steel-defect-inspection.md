@@ -1,4 +1,4 @@
-[← 作品集首页](../README.md) · **简体中文** · [English](steel-defect-inspection.en.md)
+[← 作品集首页](../README.md) · **简体中文** · [English](steel-defect-inspection.en.md) · [Public 源码仓库 ↗](https://github.com/SimonLecake/steel-defect-inspection)
 
 # Steel Defect Inspection
 
@@ -96,7 +96,7 @@ YOLO 提供针对固定类别的本地目标检测；Qwen-VL 通过兼容 API �
 | 工作台构造与 HTTP 冒烟 | 界面构造成功，页面及配置接口可访问 | 不等同于浏览器端到端测试 |
 | 本地 YOLO 单图推理 | 返回检测框与标注图 | 验证推理链路，不证明整体检测质量 |
 
-上述依据来自私有项目中已有的验证记录，本展示仓库不包含用于推理的图片、模型权重或原始实验日志，也未在此次发布时重新训练模型。
+上述依据来自项目中已有的验证记录，本展示仓库不包含用于推理的图片、模型权重或原始实验日志，也未在此次发布时重新训练模型。
 
 ## 关键边界与下一步
 
@@ -107,4 +107,4 @@ YOLO 提供针对固定类别的本地目标检测；Qwen-VL 通过兼容 API �
 
 ---
 
-本页仅展示架构与实践概述，不分发原始课程材料、实现代码、数据集或模型权重。[展示范围与第三方说明](../PUBLICATION.md)
+实现代码与运行说明已在[项目仓库](https://github.com/SimonLecake/steel-defect-inspection)公开，并保留学习材料与第三方来源说明；原始课程材料、数据集与模型权重不随仓库分发。[展示范围与第三方说明](../PUBLICATION.md)

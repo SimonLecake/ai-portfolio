@@ -1,4 +1,4 @@
-[← Portfolio](../README_EN.md) · [简体中文](bilibili-knowledge-assistant.md) · **English**
+[← Portfolio](../README_EN.md) · [简体中文](bilibili-knowledge-assistant.md) · **English** · [Public source repository ↗](https://github.com/SimonLecake/bilibili-knowledge-assistant)
 
 # Bilibili Knowledge Assistant
 
@@ -99,4 +99,4 @@ The current system analyzes audio transcripts, not video frames or screen action
 
 ---
 
-The full implementation, personal corpus, cookies, indexes and generated reports are excluded from this showcase. [Publication scope](../PUBLICATION.md)
+Implementation code and setup instructions are available in the [public project repository](https://github.com/SimonLecake/bilibili-knowledge-assistant). Personal corpora, cookies, indexes and generated reports are excluded. [Publication scope](../PUBLICATION.md)

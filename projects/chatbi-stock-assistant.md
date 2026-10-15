@@ -1,4 +1,4 @@
-[← 作品集首页](../README.md) · **简体中文** · [English](chatbi-stock-assistant.en.md)
+[← 作品集首页](../README.md) · **简体中文** · [English](chatbi-stock-assistant.en.md) · [Public 源码仓库 ↗](https://github.com/SimonLecake/chatbi-stock-assistant)
 
 # ChatBI Stock Assistant
 
@@ -103,4 +103,4 @@ flowchart TD
 
 ---
 
-本页展示合成数据图表与架构概述，不分发源码、行情数据库或密钥。[展示范围与图片来源](../PUBLICATION.md)
+实现代码、数据准备与演示说明已在[项目仓库](https://github.com/SimonLecake/chatbi-stock-assistant)公开；本地行情数据库与密钥不随仓库分发。本页保留录屏、合成数据图表与架构概述。[展示范围与图片来源](../PUBLICATION.md)

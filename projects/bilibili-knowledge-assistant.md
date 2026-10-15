@@ -1,4 +1,4 @@
-[← 作品集首页](../README.md) · **简体中文** · [English](bilibili-knowledge-assistant.en.md)
+[← 作品集首页](../README.md) · **简体中文** · [English](bilibili-knowledge-assistant.en.md) · [Public 源码仓库 ↗](https://github.com/SimonLecake/bilibili-knowledge-assistant)
 
 # Bilibili Knowledge Assistant
 
@@ -99,4 +99,4 @@ flowchart TD
 
 ---
 
-完整实现、个人语料、Cookies、索引与运行报告均不在本展示仓库中。[展示范围](../PUBLICATION.md)
+实现代码与运行说明已在[项目仓库](https://github.com/SimonLecake/bilibili-knowledge-assistant)公开；个人语料、Cookies、索引与运行报告不随仓库分发。[展示范围](../PUBLICATION.md)

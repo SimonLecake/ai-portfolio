@@ -1,4 +1,4 @@
-[← Portfolio](../README_EN.md) · [简体中文](chatbi-stock-assistant.md) · **English**
+[← Portfolio](../README_EN.md) · [简体中文](chatbi-stock-assistant.md) · **English** · [Public source repository ↗](https://github.com/SimonLecake/chatbi-stock-assistant)
 
 # ChatBI Stock Assistant
 
@@ -103,4 +103,4 @@ Priorities are a question–SQL–result evaluation set, consistent metric defin
 
 ---
 
-This page shares synthetic-data charts and an architectural overview, not source code, market databases or credentials. [Publication scope and image provenance](../PUBLICATION.md)
+Implementation code, data preparation and demo instructions are available in the [public project repository](https://github.com/SimonLecake/chatbi-stock-assistant). Local market databases and credentials are excluded. This page retains recordings, synthetic-data charts and the architectural overview. [Publication scope and image provenance](../PUBLICATION.md)

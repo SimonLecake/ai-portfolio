@@ -4,7 +4,7 @@
 
 ## 中文
 
-本仓库是 SimonLecake 的个人 AI 应用作品集，提供公开阅读的项目介绍，不提供四个应用的完整实现。初次整理日期：2026-10-14。
+本仓库是 SimonLecake 的个人 AI 应用作品集，汇总项目介绍与演示素材；四个项目的源码已分别设为 Public，可从首页直接访问。初次整理日期：2026-10-14；源码公开与导航更新：2026-10-15。
 
 ### 公开内容
 
@@ -18,10 +18,10 @@
 
 | 内容 | 来源与解释 |
 | --- | --- |
-| 项目描述 | 根据作者四个私有项目的现有 README 与工程说明整理 |
+| 项目描述 | 根据作者四个项目的现有 README 与工程说明整理；对应源码仓库现已公开 |
 | JD 示例 | 人工编写的规则说明，不包含完整提示词、规则库或候选人资料 |
 | JD 历史一致率 | 原项目记录；样本量、原始数据和完整配置未公开，不能独立复现 |
-| ChatBI 图片 | 私有项目已有的固定种子合成数据演示输出；股票名称用于实体映射，图表不是市场数据 |
+| ChatBI 图片 | ChatBI 项目已有的固定种子合成数据演示输出；股票名称用于实体映射，图表不是市场数据 |
 | Bilibili 示例 | 说明性任务，不是实测问答记录 |
 | 钢铁质检 | 基于既有学习实战材料的工程实践；未分发原始材料、数据或权重，不将全部底层工作归为个人原创 |
 | 钢铁质检展示图 | 原项目作品集整理时编写的 SVG 架构图，原样迁入；不是检测效果或运行界面截图 |
@@ -42,19 +42,26 @@
 
 股票录屏使用录制时的本地数据，不应与 `assets/chatbi/` 中的固定种子合成数据图混为一谈；本地数据来源和预测效果未在此独立验证。B 站录屏中的第三方视频文字及生成内容仅作应用演示。模型输出可能存在错误，录屏不构成事实背书、性能基准或投资建议。
 
-### 保留在私有环境的内容
+### 源码公开与未分发内容
 
-完整源码、Skill 包、核心提示词与规则库、业务样本、个人语料、行情数据库、Cookies、凭据、模型权重、训练数据和运行日志均不随本作品集发布。四个实现仓库继续保持私有。
+以下四个仓库均为 Public，可直接浏览源码、README 与使用说明：
+
+- [JD Evaluation Calibrator](https://github.com/SimonLecake/jd-rewrite-skill)：Skill 包、工作流、规则与配套文档。
+- [Bilibili Knowledge Assistant](https://github.com/SimonLecake/bilibili-knowledge-assistant)：视频与文档知识库应用。
+- [ChatBI Stock Assistant](https://github.com/SimonLecake/chatbi-stock-assistant)：分析工具、数据准备与演示代码。
+- [Steel Defect Inspection](https://github.com/SimonLecake/steel-defect-inspection)：检测工作台、引擎封装与工程说明。
+
+作品集本身仍仅保存介绍与展示素材。真实业务样本、个人语料、本地行情数据库、Cookies、凭据、模型权重、训练数据和运行日志不随仓库分发；数据及模型准备方式以各项目说明为准。
 
 ### 第三方与使用说明
 
 项目使用或集成了 Qwen-Agent、Gradio、FAISS、yt-dlp、FFmpeg、Pandas、Matplotlib、Statsmodels、SQLite、python-docx、Ultralytics / YOLO、PyTorch，以及相关模型服务。名称用于说明技术选型，不表示获得第三方背书。组件、模型和数据各自遵循其来源条款。
 
-本仓库未添加开源许可证；公开展示不表示授予私有实现或第三方材料的使用许可。技术交流可通过简历或申请材料中的联系方式安排，源码评审按项目情况另行处理。
+本次更新将四个源码仓库设为 Public，没有为作品集或四个项目新增统一开源许可证。Public 表示源码可公开访问，不等同于已授予 MIT、Apache 等许可证下的复用权限。复用前应查看各项目许可与来源说明；钢铁质检项目尤其保留了[原始实战材料授权信息尚未完整附于仓库的说明](https://github.com/SimonLecake/steel-defect-inspection/blob/main/docs/provenance.md)，本次公开不重新授权第三方材料。
 
 ## English
 
-This is SimonLecake's public AI application portfolio. It presents project descriptions, not the four full implementations. Initially prepared on 2026-10-14.
+This is SimonLecake's public AI application portfolio, collecting project descriptions and demonstrations. All four source repositories are now Public and directly accessible from the home page. Initially prepared on 2026-10-14; source visibility and navigation updated on 2026-10-15.
 
 ### Published materials
 
@@ -68,7 +75,7 @@ This is SimonLecake's public AI application portfolio. It presents project descr
 
 | Material | Source and interpretation |
 | --- | --- |
-| Project descriptions | Adapted from the author's four private projects and their engineering documentation |
+| Project descriptions | Adapted from the author's four projects and their engineering documentation; the corresponding source repositories are now Public |
 | JD examples | Manually written illustrations, excluding complete prompts, rule libraries and candidate records |
 | Historical JD agreement | A record from the original project; sample size, raw data and configuration are not public, preventing independent reproduction |
 | ChatBI images | Existing fixed-seed synthetic-data outputs; stock names illustrate entity mapping, not actual market data |
@@ -92,12 +99,19 @@ Original files are unchanged. Published copies crop browser address/bookmark bar
 
 The stock recording uses its local dataset at recording time, separately from the fixed-seed synthetic charts in `assets/chatbi/`; its data provenance and forecasting performance are not independently verified here. Third-party video text and generated content in the Bilibili recording demonstrate the application. Model outputs may be incorrect; recordings are not factual endorsements, performance benchmarks or investment advice.
 
-### Materials kept private
+### Public source and excluded materials
 
-Full source code, Skill packages, core prompts and rule libraries, business samples, personal corpora, market databases, cookies, credentials, weights, training data and runtime logs are excluded. All four implementation repositories remain private.
+All four repositories are Public, with source code, READMEs and usage instructions available directly:
+
+- [JD Evaluation Calibrator](https://github.com/SimonLecake/jd-rewrite-skill): Skill package, workflow, rules and supporting documentation.
+- [Bilibili Knowledge Assistant](https://github.com/SimonLecake/bilibili-knowledge-assistant): video and document knowledge-base application.
+- [ChatBI Stock Assistant](https://github.com/SimonLecake/chatbi-stock-assistant): analysis tools, data preparation and demo code.
+- [Steel Defect Inspection](https://github.com/SimonLecake/steel-defect-inspection): inspection workbench, engine wrappers and engineering documentation.
+
+The portfolio itself stores descriptions and presentation assets. Real business samples, personal corpora, local market databases, cookies, credentials, weights, training data and runtime logs are not distributed. Follow each project’s instructions to prepare data and models.
 
 ### Third-party components and use
 
 The projects use or integrate Qwen-Agent, Gradio, FAISS, yt-dlp, FFmpeg, Pandas, Matplotlib, Statsmodels, SQLite, python-docx, Ultralytics / YOLO, PyTorch and associated model services. Names identify technical choices and do not imply endorsement. Components, models and data remain subject to their respective terms.
 
-No open-source license has been added to this portfolio. Public presentation does not grant permission to use the private implementations or third-party materials. Technical discussions can be arranged through the contact details in my CV or application materials; source review is considered individually.
+This update makes all four source repositories Public without adding a common open-source license to them or to the portfolio. Public visibility means source is accessible; it does not grant reuse permissions under a license such as MIT or Apache. Consult each project’s licensing and provenance notes before reuse. In particular, steel inspection retains its [notice about incomplete authorization information for the original learning materials](https://github.com/SimonLecake/steel-defect-inspection/blob/main/docs/provenance.md); this visibility change does not relicense third-party materials.
